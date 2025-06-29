@@ -13,6 +13,17 @@ Dự án này tự động thực hiện quy trình ETL từ nhiều nguồn d�
 | Training Hours | MySQL DB | `company_course.training_hours` |
 | Employment | MySQL DB | `company_course.employment` |
 | City Index | HTML Table | [Link](https://sca-programming-school.github.io/city_development_index/index.html) |
+## 🛠️ Kết nối đến MySQL (Training Hours & Employment)
+
+Dự án cần kết nối đến CSDL MySQL từ xa để truy xuất bảng `training_hours` và `employment`.
+
+| Thông tin | Giá trị |
+|----------|---------|
+| Host     | 112.213.86.31 |
+| Port     | 3360 |
+| Username | etl_practice |
+| Password | 550814 |
+| Database | company_course |
 
 ## ⚙️ Các bước xử lý (ETL)
 
